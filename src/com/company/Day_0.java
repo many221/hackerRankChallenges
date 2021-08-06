@@ -21,6 +21,7 @@ public class Day_0 {
         System.out.println("Hello, World.");
         System.out.println (inputString);
 
+
         // TODO: Write a line of code here that prints the contents of inputString to stdout.
     }
 }
