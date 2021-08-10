@@ -33,8 +33,8 @@ import static java.util.stream.Collectors.toList;
 
         double tax =  meal_cost *  tax_percent/100;
 
-        int totalCost = (int) (meal_cost + tip + tax);
-        System.out.println (totalCost);
+        double totalCost =  (meal_cost + tip + tax);
+        System.out.println (Math.round (totalCost  ));
     }
 
 
